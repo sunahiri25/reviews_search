@@ -1,46 +1,25 @@
-# Getting Started with Create React App
+![logo](https://github.com/sunahiri25/reviews_search/blob/main/public/favicon-32x32.png)  **Yelp Reviews Sentiment Analysis**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React application that utilizes the Elastic Search API to implement a search interface. It allows users to search for reviews based on various criteria and provides facets for filtering the search results.
 
-## Available Scripts
+![screenshot](https://github.com/sunahiri25/reviews_search/blob/main/public/Screenshot.png)
 
-In the project directory, you can run:
+## Dependencies
 
-### `npm start`
+The following dependencies are required to run the application:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- `@elastic/search-ui-app-search-connector`: A connector for integrating with the Elastic App Search API.
+- `@elastic/react-search-ui`: A set of UI components for building search interfaces.
+- `@elastic/react-search-ui-views`: Additional views for the search interface components.
+- `@elastic/search-ui`: The search driver options for configuring the search behavior.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Usage
 
-### `npm test`
+1. Install the required dependencies using npm or yarn:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+       npm install @elastic/search-ui-app-search-connector @elastic/react-search-ui @elastic/react-search-ui-views @elastic/search-ui
+   
+3. Import the necessary components and configure the search driver options in your React application.
+4. Run the React application using your preferred development environment or build and deploy it to a server.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+       yarn start
