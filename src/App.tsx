@@ -23,6 +23,7 @@ const connector = new AppSearchAPIConnector({
   searchKey: "search-2yh86bdddi8vjfyebzunaw2m",
   engineName: "reviews-search-engine",
   endpointBase: "https://4ad4dcbde3bd492cac5f082b2fece819.ent-search.us-central1.gcp.cloud.es.io"
+
 });
 const config: SearchDriverOptions = {
   alwaysSearchOnInitialLoad: true,
